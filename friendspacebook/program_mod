@@ -41,19 +41,19 @@ load r1 119 push r1
 load r1 106 push r1
 load r2 1
 
-label: 💠🔶🎌🚩🏁 
+label: GOTO_A
 pop r1 
 push r2 
 push r1 
 load r1 389 push r1
 push r2
-jump_to 💰🏁🚩🎌💠🔶
+jump_to GOTO_D
 xor 
 print_top
 load r1 1️ push r1 
 add 
 pop r2
-if_not_zero jump_to 💰💠🔶🎌🚩🏁 end
+if_not_zero jump_to GOTO_A end
 
 load r1 98426 push r1
 load r1 97850 push r1
@@ -71,19 +71,19 @@ load r1 93969 push r1
 load r1 93766 push r1
 load r2 99️
 
-label: 💠🏁🎌🔶🚩 
+label: GOTO_B
 pop r1 
 push r2 
 push r1 
 load r1 568 push r1 
 push r2
-jump_to 💰🏁🚩🎌💠🔶
+jump_to GOTO_D
 xor 
 print_top
 load r1 1️ push r1 
 add 
 pop r2
-if_not_zero jump_to 💰💠🏁🎌🔶🚩 end
+if_not_zero jump_to GOTO_B end
 
 load r1 101141058 push r1
 load r1 101060206 push r1
@@ -119,31 +119,31 @@ load r1 9918082 push r1
 load r1 9916239 push r1
 load r2 765️
 
-label: 🚩💠🎌🔶🏁 
+label: GOTO_C
 pop r1 
 push r2 
 push r1 
 load r1 1023 push r1 
 push r2
-jump_to 💰🏁🚩🎌💠🔶
+jump_to GOTO_D
 xor 
 print_top
 load r1 1️ push r1 
 add 
 pop r2
-if_not_zero jump_to 💰🚩💠🎌🔶🏁 end
+if_not_zero jump_to GOTO_C end
 exit
 
-label: 🏁🚩🎌💠🔶
+label: GOTO_D
 load r1 2️ push r1 
-label: 💠🎌🏁🚩🔶
-jump_to 💰🚩🔶🏁🎌💠
-label: 🔶🎌🚩💠🏁 
+label: GOTO_E
+jump_to GOTO_I
+label: GOTO_F
 if_zero pop_out 
-jump_to 💰🔶🚩💠🏁🎌 end
-pop_out jump_to 💰🎌🏁💠🔶🚩
-label: 🎌🏁🚩🔶💠 
-if_zero pop_out jump_to 💰🔶🚩💠🏁🎌 end
+jump_to GOTO_H end
+pop_out jump_to GOTO_K
+label: GOTO_G
+if_zero pop_out jump_to GOTO_H end
 pop_out 
 pop r1 
 load r2 1️ push r2 
@@ -154,24 +154,24 @@ push r1
 push r2 
 jump_top end 
 push r1
-label: 🔶🚩💠🏁🎌 
+label: GOTO_H
 load r2 1️ push r2
 add 
-jump_to 💰💠🎌🏁🚩🔶
+jump_to GOTO_E
 
-label: 🚩🔶🏁🎌💠
+label: GOTO_I
 clone 
 load r1 2️ push r1
-label: 🎌🚩💠🔶🏁 
+label: GOTO_J
 sub 
 if_zero pop_out 
 load r1 1️ push r1
-jump_to 💰🔶🎌🚩💠🏁 end
+jump_to GOTO_F end
 pop_out 
 clone 
 push r1
 modulo 
-if_zero jump_to 💰🔶🎌🚩💠🏁 end
+if_zero jump_to GOTO_F end
 pop_out 
 clone 
 push r1 load r1 1️
@@ -179,13 +179,13 @@ push r1
 add 
 clone 
 pop r1 
-jump_to 💰🎌🚩💠🔶🏁
+jump_to GOTO_J
 
-label: 🎌🏁💠🔶🚩
+label: GOTO_K
 clone 
 clone 
 load r2 0️ push r2
-label: 🏁💠🔶🚩🎌
+label: GOTO_L
 load r1 1️0️ push r1
 multiply 
 pop r2 
@@ -200,10 +200,10 @@ push r2
 sub
 if_zero pop_out 
 load r2 1 push r2 
-jump_to 💰🎌🏁🚩🔶💠 end
+jump_to GOTO_G end
 pop_out 
 push r1 
 load r1 1️0️ push r1
 divide
-if_zero jump_to 💰🎌🏁🚩🔶💠 end
-clone push r2 jump_to 💰🏁💠🔶🚩🎌
+if_zero jump_to GOTO_G end
+clone push r2 jump_to GOTO_L
