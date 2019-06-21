@@ -1,0 +1,4 @@
+Netcat into the machine specified
+There are two files in the directory - README.flag and another
+We have no cat, so looking at /usr/bin we can see iconv
+Use the command 'iconv README.flag' to get the flag

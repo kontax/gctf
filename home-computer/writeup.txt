@@ -1,0 +1,2 @@
+The flag is located in Users/Family/Documents/credentials.txt
+It's hidden in a separate NTFS stream (FILE0) - not sure how to view this on linux

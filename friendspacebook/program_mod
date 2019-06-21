@@ -1,0 +1,209 @@
+load r1 0 push r1
+load r1 17488 push r1
+load r1 16758 push r1
+load r1 16599 push r1
+load r1 16285 push r1
+load r1 16094 push r1
+load r1 15505 push r1
+load r1 15417 push r1
+load r1 14832 push r1
+load r1 14450 push r1
+load r1 13893 push r1
+load r1 13926 push r1
+load r1 13437 push r1
+load r1 12833 push r1
+load r1 12741 push r1
+load r1 12533 push r1
+load r1 11504 push r1
+load r1 11342 push r1
+load r1 10503 push r1
+load r1 10550 push r1
+load r1 10319 push r1
+load r1 975 push r1
+load r1 1007 push r1
+load r1 892 push r1
+load r1 893 push r1
+load r1 660 push r1
+load r1 743 push r1
+load r1 267 push r1
+load r1 344 push r1
+load r1 264 push r1
+load r1 339 push r1
+load r1 208 push r1
+load r1 216 push r1
+load r1 242 push r1
+load r1 172 push r1
+load r1 74 push r1
+load r1 49 push r1
+load r1 119 push r1
+load r1 113 push r1
+load r1 119 push r1
+load r1 106 push r1
+load r2 1
+
+label: 💠🔶🎌🚩🏁 
+pop r1 
+push r2 
+push r1 
+load r1 389 push r1
+push r2
+jump_to 💰🏁🚩🎌💠🔶
+xor 
+print_top
+load r1 1️ push r1 
+add 
+pop r2
+if_not_zero jump_to 💰💠🔶🎌🚩🏁 end
+
+load r1 98426 push r1
+load r1 97850 push r1
+load r1 97604 push r1
+load r1 97280 push r1
+load r1 96815 push r1
+load r1 96443 push r1
+load r1 96354 push r1
+load r1 95934 push r1
+load r1 94865 push r1
+load r1 94952 push r1
+load r1 94669 push r1
+load r1 94440 push r1
+load r1 93969 push r1
+load r1 93766 push r1
+load r2 99️
+
+label: 💠🏁🎌🔶🚩 
+pop r1 
+push r2 
+push r1 
+load r1 568 push r1 
+push r2
+jump_to 💰🏁🚩🎌💠🔶
+xor 
+print_top
+load r1 1️ push r1 
+add 
+pop r2
+if_not_zero jump_to 💰💠🏁🎌🔶🚩 end
+
+load r1 101141058 push r1
+load r1 101060206 push r1
+load r1 101030055 push r1
+load r1 100998966 push r1
+load r1 100887990 push r1
+load r1 100767085 push r1
+load r1 100707036 push r1
+load r1 100656111 push r1
+load r1 100404094 push r1
+load r1 100160922 push r1
+load r1 100131019 push r1
+load r1 100111100 push r1
+load r1 100059926 push r1
+load r1 100049982 push r1
+load r1 100030045 push r1
+load r1 9989997 push r1
+load r1 9981858 push r1
+load r1 9980815 push r1
+load r1 9978842 push r1
+load r1 9965794 push r1
+load r1 9957564 push r1
+load r1 9938304 push r1
+load r1 9935427 push r1
+load r1 9932289 push r1
+load r1 9931494 push r1
+load r1 9927388 push r1
+load r1 9926376 push r1
+load r1 9923213 push r1
+load r1 9921394 push r1
+load r1 9919154 push r1
+load r1 9918082 push r1
+load r1 9916239 push r1
+load r2 765️
+
+label: 🚩💠🎌🔶🏁 
+pop r1 
+push r2 
+push r1 
+load r1 1023 push r1 
+push r2
+jump_to 💰🏁🚩🎌💠🔶
+xor 
+print_top
+load r1 1️ push r1 
+add 
+pop r2
+if_not_zero jump_to 💰🚩💠🎌🔶🏁 end
+exit
+
+label: 🏁🚩🎌💠🔶
+load r1 2️ push r1 
+label: 💠🎌🏁🚩🔶
+jump_to 💰🚩🔶🏁🎌💠
+label: 🔶🎌🚩💠🏁 
+if_zero pop_out 
+jump_to 💰🔶🚩💠🏁🎌 end
+pop_out jump_to 💰🎌🏁💠🔶🚩
+label: 🎌🏁🚩🔶💠 
+if_zero pop_out jump_to 💰🔶🚩💠🏁🎌 end
+pop_out 
+pop r1 
+load r2 1️ push r2 
+sub
+if_zero pop_out 
+pop r2 
+push r1 
+push r2 
+jump_top end 
+push r1
+label: 🔶🚩💠🏁🎌 
+load r2 1️ push r2
+add 
+jump_to 💰💠🎌🏁🚩🔶
+
+label: 🚩🔶🏁🎌💠
+clone 
+load r1 2️ push r1
+label: 🎌🚩💠🔶🏁 
+sub 
+if_zero pop_out 
+load r1 1️ push r1
+jump_to 💰🔶🎌🚩💠🏁 end
+pop_out 
+clone 
+push r1
+modulo 
+if_zero jump_to 💰🔶🎌🚩💠🏁 end
+pop_out 
+clone 
+push r1 load r1 1️
+push r1 
+add 
+clone 
+pop r1 
+jump_to 💰🎌🚩💠🔶🏁
+
+label: 🎌🏁💠🔶🚩
+clone 
+clone 
+load r2 0️ push r2
+label: 🏁💠🔶🚩🎌
+load r1 1️0️ push r1
+multiply 
+pop r2 
+push r1 
+modulo
+push r2 
+add 
+pop r2 
+pop r1 
+clone 
+push r2 
+sub
+if_zero pop_out 
+load r2 1 push r2 
+jump_to 💰🎌🏁🚩🔶💠 end
+pop_out 
+push r1 
+load r1 1️0️ push r1
+divide
+if_zero jump_to 💰🎌🏁🚩🔶💠 end
+clone push r2 jump_to 💰🏁💠🔶🚩🎌

@@ -1,0 +1,4 @@
+Look at the README.pdf file - the name of the satellite is available: osmium
+Open up wireshark and start capturing traffic
+Run the binary and use osmium as the satellite name
+Type 'a' to get config data, and look at the result in wireshark
