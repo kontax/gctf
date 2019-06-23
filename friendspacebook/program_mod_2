@@ -50,7 +50,7 @@ push r2
 jump_to GOTO_D
 xor 
 print_top
-load r1 1 push r1 
+load r1 1️ push r1 
 add 
 pop r2
 if_not_zero 
@@ -70,7 +70,7 @@ load r1 94669 push r1
 load r1 94440 push r1
 load r1 93969 push r1
 load r1 93766 push r1
-load r2 99
+load r2 99️
 
 label: GOTO_B
 pop r1 
@@ -81,7 +81,7 @@ push r2
 jump_to GOTO_D
 xor 
 print_top
-load r1 1 push r1 
+load r1 1️ push r1 
 add 
 pop r2
 if_not_zero 
@@ -119,7 +119,7 @@ load r1 9921394 push r1
 load r1 9919154 push r1
 load r1 9918082 push r1
 load r1 9916239 push r1
-load r2 765
+load r2 765️
 
 label: GOTO_C
 pop r1 
@@ -130,7 +130,7 @@ push r2
 jump_to GOTO_D
 xor 
 print_top
-load r1 1 push r1 
+load r1 1️ push r1 
 add 
 pop r2
 if_not_zero 
@@ -138,44 +138,42 @@ if_not_zero
 exit
 
 label: GOTO_D
-load r1 2 push r1 
+load r1 2️push r1 
 label: GOTO_E
 jump_to GOTO_I
 label: GOTO_F
 if_zero 
     pop_out 
     jump_to GOTO_H end
-pop_out 
-jump_to GOTO_K
-
+pop_out jump_to GOTO_K
 label: GOTO_G
 if_zero 
-    pop_out 
+    pop_out
     jump_to GOTO_H end
 pop_out 
 pop r1 
-load r2 1 push r2 
+load r2 1️ push r2 
 sub
 if_zero 
     pop_out 
-    pop r2 
-    push r1 
-    push r2 
-    jump_top end 
+pop r2 
+push r1 
+push r2 
+jump_top end 
 push r1
 label: GOTO_H
-load r2 1 push r2
+load r2 1️ push r2
 add 
 jump_to GOTO_E
 
 label: GOTO_I
 clone 
-load r1 2 push r1
+load r1 2️ push r1
 label: GOTO_J
 sub 
 if_zero 
     pop_out 
-    load r1 1 push r1
+    load r1 1️ push r1
     jump_to GOTO_F end
 pop_out 
 clone 
@@ -185,8 +183,8 @@ if_zero
     jump_to GOTO_F end
 pop_out 
 clone 
-push r1
-load r1 1 push r1 
+push r1 load r1 1️
+push r1 
 add 
 clone 
 pop r1 
@@ -195,7 +193,7 @@ jump_to GOTO_J
 label: GOTO_K
 clone 
 clone 
-load r2 0 push r2
+load r2 0️ push r2
 label: GOTO_L
 load r1 10 push r1
 multiply 
@@ -215,7 +213,7 @@ if_zero
     jump_to GOTO_G end
 pop_out 
 push r1 
-load r1 10 push r1
+load r1 1️0️ push r1
 divide
 if_zero 
     jump_to GOTO_G end
